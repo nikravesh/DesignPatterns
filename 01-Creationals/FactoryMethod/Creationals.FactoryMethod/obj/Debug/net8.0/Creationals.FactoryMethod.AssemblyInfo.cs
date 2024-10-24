@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Creationals.FactoryMethod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a25de31c2018eb30a665831dc81324351ce45e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9393165c692f47107bd79b6479912240f57aa122")]
 [assembly: System.Reflection.AssemblyProductAttribute("Creationals.FactoryMethod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Creationals.FactoryMethod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
