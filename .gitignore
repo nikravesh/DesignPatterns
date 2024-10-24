@@ -396,3 +396,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/01-Creationals/FactoryMethod/Creationals.FactoryMethod/obj/Debug/net8.0/Creationals.FactoryMethod.AssemblyInfoInputs.cache
+/01-Creationals/FactoryMethod/Creationals.FactoryMethod/obj/Debug/net8.0/Creationals.FactoryMethod.AssemblyInfo.cs
