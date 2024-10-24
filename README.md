@@ -9,6 +9,14 @@ Creational Design Patterns focus on the process of object creation or problems r
 * Flexibility: It makes it easier to introduce new types of objects without changing the code that uses them.
 ## Factory Method
 The Factory Design Pattern defines an interface for creating objects but allows subclasses to alter the type of objects that will be created. This pattern delegates the responsibility of instantiating objects to a factory class, which makes the code more flexible and easier to manage.
+
+The Factory Method Design Pattern consists of the following components:
+
+* Product: This is the interface or abstract class defining the product the factory method will create.
+* ConcreteProduct: These are the specific implementations of the Product interface or abstract class.
+* Creator: This abstract class or interface declares the FactoryMethod().
+* ConcreteCreator: Subclasses of Creator that implement the FactoryMethod() to produce ConcreteProduct instances.
+
 ## Abstract Factory
 According to the Gang of Four Definition, The Abstract Factory Design Pattern provides a way to encapsulate a group of factories with a common theme without specifying their concrete classes.
 Abstract means hiding some information, factory means which produces the products, and pattern means a design. So, the Abstract Factory Pattern is a software design pattern that provides a way to encapsulate a group of individual factories that have a common theme.
