@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Structural", "02-Structu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Behavioral", "03-Behavioral", "{3605053E-877A-4153-870F-90C09650962A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-ChaniOfResponsibility", "01-ChaniOfResponsibility", "{C0B10F58-B280-4226-ACA5-CE870194DECA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-EndPoint", "04-EndPoint", "{4DA566C0-81D1-4E08-9DF6-48A0118671DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{C4467B94-93D3-4CEE-BB87-15C939BA4BD6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FatcoryMethod", "FatcoryMethod", "{1788566B-CC7A-4442-89E5-30E57BFA9351}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-EndPoint", "00-EndPoint", "{4DA566C0-81D1-4E08-9DF6-48A0118671DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creationals.FactoryMethod", "01-Creationals\FactoryMethod\Creationals.FactoryMethod\Creationals.FactoryMethod.csproj", "{2CBEC689-EF74-47F8-9098-664B702D938C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,17 +21,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C4467B94-93D3-4CEE-BB87-15C939BA4BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4467B94-93D3-4CEE-BB87-15C939BA4BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4467B94-93D3-4CEE-BB87-15C939BA4BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4467B94-93D3-4CEE-BB87-15C939BA4BD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBEC689-EF74-47F8-9098-664B702D938C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBEC689-EF74-47F8-9098-664B702D938C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBEC689-EF74-47F8-9098-664B702D938C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBEC689-EF74-47F8-9098-664B702D938C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C0B10F58-B280-4226-ACA5-CE870194DECA} = {3605053E-877A-4153-870F-90C09650962A}
-		{C4467B94-93D3-4CEE-BB87-15C939BA4BD6} = {C0B10F58-B280-4226-ACA5-CE870194DECA}
+		{1788566B-CC7A-4442-89E5-30E57BFA9351} = {DDD8EF87-EBE7-41F3-8C83-F79BD7B348F8}
+		{2CBEC689-EF74-47F8-9098-664B702D938C} = {1788566B-CC7A-4442-89E5-30E57BFA9351}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {335FBCEB-1C30-4722-848C-A968C08D7281}
