@@ -4,8 +4,5 @@ namespace Creationals.FactoryMethod.ConcreateClasses;
 
 public class Bike : IVehicle
 {
-    public void Drive()
-    {
-        Console.WriteLine("Riding a Bike");
-    }
+    public void Drive() => Console.WriteLine("Riding a Bike");
 }

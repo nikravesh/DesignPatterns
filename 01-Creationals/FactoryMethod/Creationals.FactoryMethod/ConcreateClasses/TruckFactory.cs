@@ -4,8 +4,5 @@ namespace Creationals.FactoryMethod.ConcreateClasses;
 
 public class TruckFactory : Vehicle
 {
-    public override IVehicle CreateVehicle()
-    {
-        return new Truck();
-    }
+    public override IVehicle CreateVehicle() => new Truck();
 }
