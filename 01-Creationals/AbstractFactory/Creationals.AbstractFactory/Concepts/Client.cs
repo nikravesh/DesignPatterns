@@ -1,4 +1,4 @@
-﻿using Creationals.AbstractFactory.Concepts.ConcreateClasses;
+﻿using Creationals.AbstractFactory.Concepts.ConcreteClasses;
 using Creationals.AbstractFactory.Concepts.Factories;
 
 namespace Creationals.AbstractFactory.Concepts;
