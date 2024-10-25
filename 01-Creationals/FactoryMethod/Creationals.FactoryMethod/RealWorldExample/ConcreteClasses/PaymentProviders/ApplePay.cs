@@ -1,6 +1,6 @@
 ﻿using Creationals.FactoryMethod.RealWorldExample.SuperClasses;
 
-namespace Creationals.FactoryMethod.RealWorldExample.ConCreateClasses.PaymentProviders;
+namespace Creationals.FactoryMethod.RealWorldExample.ConcreteClasses.PaymentProviders;
 
 public class ApplePay : IPaymentProvider
 {

@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="RealWordExample\ConcreteClasses\" />
+    <Folder Include="RealWordExample\SuperClasses\" />
+  </ItemGroup>
+
 </Project>

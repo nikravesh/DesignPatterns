@@ -1,6 +1,6 @@
 ﻿using Creationals.AbstractFactory.Concepts.SuperClasses;
 
-namespace Creationals.AbstractFactory.Concepts.ConcreateClasses;
+namespace Creationals.AbstractFactory.Concepts.ConcreteClasses;
 
 public class CoconateDonate : IDonate
 {
