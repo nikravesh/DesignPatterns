@@ -2,9 +2,9 @@
 
 namespace Creationals.AbstractFactory.RealWordExample.ConcreteClasses;
 
-public class SqlServerConnection : IMyDbConnection
+public class SQLServerConnection : IMyDbConnection
 {
-    public void Close() => Console.WriteLine("Sql server connection closed!");
+    public void Close() => Console.WriteLine("SQL server connection closed!");
 
-    public void Open() => Console.WriteLine("Sql server connection opened!");
+    public void Open() => Console.WriteLine("SQL server connection opened!");
 }
