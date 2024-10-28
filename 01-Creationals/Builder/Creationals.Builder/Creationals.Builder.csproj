@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="RealWorldExample\" />
+    <Folder Include="RealWorldExample\Director\" />
   </ItemGroup>
 
 </Project>
