@@ -11,28 +11,43 @@ public class MailSender : IMailSenderBuilder
         _mailModel = new MailModel();
     }
 
-    public IMailSenderBuilder BuildBody()
+    public IMailSenderBuilder BuildBody(string body)
     {
-        _mailModel.Body =
+        _mailModel.Body = body;
+
+        return this;
     }
 
-    public IMailSenderBuilder BuildFrom()
+    public IMailSenderBuilder BuildFrom(string emailAddress)
     {
-        throw new NotImplementedException();
+        _mailModel.From = emailAddress;
+
+        return this;
     }
 
     public IMailSenderBuilder BuildHasAttachments(bool hasAttachments)
     {
-        throw new NotImplementedException();
+        _mailModel.HasAttachemnts = hasAttachments;
+
+        return this;
     }
 
-    public IMailSenderBuilder BuildSubject()
+    public IMailSenderBuilder BuildSubject(string subjects)
     {
-        throw new NotImplementedException();
+        _mailModel.Subject = subjects;
+
+        return this;
     }
 
-    public IMailSenderBuilder BuildTo()
+    public IMailSenderBuilder BuildTo(params string[] emailAddress)
     {
-        throw new NotImplementedException();
+        _mailModel.To = emailAddress;
+
+        return this;
+    }
+
+    public MailModel GetResult()
+    {
+        return _mailModel;
     }
 }
