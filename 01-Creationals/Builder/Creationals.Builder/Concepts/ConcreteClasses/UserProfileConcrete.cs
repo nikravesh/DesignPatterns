@@ -11,7 +11,7 @@ public class UserProfileConcrete : IUserProfileBuilder
         _profile = new UserProfile();
     }
 
-    public UserProfile Build()
+    public UserProfile GetResult()
     =>
         new()
         {
@@ -46,6 +46,13 @@ public class UserProfileConcrete : IUserProfileBuilder
         _profile.FirstName = firstName;
         _profile.LastName = lastName;
         _profile.Email = email;
+
+        return this;
+    }
+
+    public IUserProfileBuilder BuildIsAdmin(bool isAdmin)
+    {
+        _profile.IsAdmin = isAdmin;
 
         return this;
     }
