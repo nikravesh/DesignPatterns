@@ -1,9 +1,9 @@
 ﻿namespace Creationals.Builder.RealWorldExample.Builders;
 public interface IMailSenderBuilder
 {
-    IMailSenderBuilder BuildFrom();
-    IMailSenderBuilder BuildTo();
-    IMailSenderBuilder BuildSubject();
-    IMailSenderBuilder BuildBody();
+    IMailSenderBuilder BuildFrom(string emailAddress);
+    IMailSenderBuilder BuildTo(params string[] emailAddress);
+    IMailSenderBuilder BuildSubject(string subjects);
+    IMailSenderBuilder BuildBody(string body);
     IMailSenderBuilder BuildHasAttachments(bool hasAttachments);
 }
