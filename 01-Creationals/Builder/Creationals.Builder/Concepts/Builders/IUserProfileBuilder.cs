@@ -1,7 +1,11 @@
-﻿namespace Creationals.Builder.Concepts.Builders;
+﻿using Creationals.Builder.Concepts.Products;
+
+namespace Creationals.Builder.Concepts.Builders;
 public interface IUserProfileBuilder
 {
-    void SetPersonalityInfo(string firstName,string lastName,string email);
-    void SetAddress(string city, string address, string zipCode);
-    void SetCellPhone(string cellPhonNO);
+    IUserProfileBuilder BuildPersonalityInfo(string firstName,string lastName,string email);
+    IUserProfileBuilder BuildAddress(string city, string address, string zipCode);
+    IUserProfileBuilder BuildCellPhone(string cellPhonNO);
+
+    UserProfile Build();
 }

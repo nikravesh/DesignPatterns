@@ -11,26 +11,8 @@ public class UserProfileConcrete : IUserProfileBuilder
         _profile = new UserProfile();
     }
 
-    public void SetAddress(string city, string address, string zipCode)
-    {
-        _profile.City = city;
-        _profile.Address = address;
-        _profile.ZipCode = zipCode;
-    }
-
-    public void SetCellPhone(string cellPhonNO)
-    {
-        _profile.CellPhone = cellPhonNO;
-    }
-
-    public void SetPersonalityInfo(string firstName, string lastName, string email)
-    {
-        _profile.FirstName = firstName;
-        _profile.LastName = lastName;
-        _profile.Email = email;
-    }
-
-    public UserProfile GetUserProfile() =>
+    public UserProfile Build()
+    =>
         new()
         {
             FirstName = _profile.FirstName,
@@ -41,4 +23,30 @@ public class UserProfileConcrete : IUserProfileBuilder
             City = _profile.City,
             ZipCode = _profile.ZipCode
         };
+
+
+    public IUserProfileBuilder BuildAddress(string city, string address, string zipCode)
+    {
+        _profile.City = city;
+        _profile.Address = address;
+        _profile.ZipCode = zipCode;
+
+        return this;
+    }
+
+    public IUserProfileBuilder BuildCellPhone(string cellPhonNO)
+    {
+        _profile.CellPhone = cellPhonNO;
+
+        return this;
+    }
+
+    public IUserProfileBuilder BuildPersonalityInfo(string firstName, string lastName, string email)
+    {
+        _profile.FirstName = firstName;
+        _profile.LastName = lastName;
+        _profile.Email = email;
+
+        return this;
+    }
 }

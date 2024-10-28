@@ -5,8 +5,10 @@ public class UserProfileCreator
 {
     public void PrepareUserProfile(IUserProfileBuilder userProfileBuilder)
     {
-        userProfileBuilder.SetPersonalityInfo("Alireza","Nikravesh","a.z.nikravesh@gmail.com");
-        userProfileBuilder.SetCellPhone("0123456789");
-        userProfileBuilder.SetAddress("City", "Address", "ZipCode");
+        userProfileBuilder
+            .BuildPersonalityInfo("Alireza","Nikravesh","a.z.nikravesh@gmail.com")
+            .BuildCellPhone("0123456789")
+            .BuildAddress("City", "Address", "ZipCode")
+            .Build();
     }
 }

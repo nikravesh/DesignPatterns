@@ -11,6 +11,6 @@ internal class Client
         UserProfileConcrete userProfile = new UserProfileConcrete();
 
         userProfileCreator.PrepareUserProfile(userProfile);
-        UserProfile profile = userProfile.GetUserProfile();
+        UserProfile profile = userProfile.Build();
     }
 }
