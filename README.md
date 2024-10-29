@@ -17,8 +17,6 @@ The Factory Method Design Pattern consists of the following components:
 * Creator: This abstract class or interface declares the FactoryMethod().
 * ConcreteCreator: Subclasses of Creator that implement the FactoryMethod() to produce ConcreteProduct instances.
 
-## Builder
-
 ## Abstract Factory
 According to the Gang of Four Definition, The Abstract Factory Design Pattern provides a way to encapsulate a group of factories with a common theme without specifying their concrete classes.
 Abstract means hiding some information, factory means which produces the products, and pattern means a design. So, the Abstract Factory Pattern is a software design pattern that provides a way to encapsulate a group of individual factories that have a common theme.
@@ -31,3 +29,14 @@ The Abstract Factory Design Pattern consists of the following components:
 * AbstractProduct: Declares an interface for a type of product object. These are going to be interfaces for creating abstract products. Here, we need to define the Operations a Product should have.
 * ConcreteProduct: Implements the AbstractProduct interface. These are the classes that implement the Abstract Product interface.
 * Client: Uses interfaces declared by AbstractFactory and AbstractProduct classes. This class will use our Abstract Factory and Abstract Product interfaces to create a family of products.
+
+## Builder
+Builder is a creational design pattern that lets you construct complex objects step by step.
+The builder pattern is a design pattern that lets you construct complex objects step by step. Unlike other creational patterns, which focus on the instantiation of a class, the builder pattern focuses on constructing a complex object incrementally. Think of it as a chef assembling a dish with specific ingredients and steps.
+The builder pattern is particularly useful when dealing with objects that require many configurations or steps to construct. It improves code readability and allows for better management of complex construction processes.
+
+Components of the Builder Pattern
+* Builder Interface/Abstract Class: Defines all the steps required to create a product.
+* Concrete Builder: Implements the steps defined in the builder interface.
+* Product: The complex object that is being constructed.
+* Director: Responsible for controlling the creation process using the builder interface
