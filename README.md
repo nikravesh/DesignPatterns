@@ -17,6 +17,8 @@ The Factory Method Design Pattern consists of the following components:
 * Creator: This abstract class or interface declares the FactoryMethod().
 * ConcreteCreator: Subclasses of Creator that implement the FactoryMethod() to produce ConcreteProduct instances.
 
+## Builder
+
 ## Abstract Factory
 According to the Gang of Four Definition, The Abstract Factory Design Pattern provides a way to encapsulate a group of factories with a common theme without specifying their concrete classes.
 Abstract means hiding some information, factory means which produces the products, and pattern means a design. So, the Abstract Factory Pattern is a software design pattern that provides a way to encapsulate a group of individual factories that have a common theme.
