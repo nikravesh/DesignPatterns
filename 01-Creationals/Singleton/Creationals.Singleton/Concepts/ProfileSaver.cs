@@ -22,9 +22,17 @@ public class ProfileSaver
         }
     }
 
-
-
     private ProfileSaver()
     {
+    }
+
+    public void Save()
+    {
+        //save user profile as a xml or json
+    }
+
+    public void Load() 
+    {
+        //load the xml or json and create user profile
     }
 }
