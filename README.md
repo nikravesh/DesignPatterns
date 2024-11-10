@@ -43,3 +43,7 @@ Components of the Builder Pattern
 
 ## Singleton
 The Singleton Design Pattern is a Creational Design Pattern used to ensure that a class has only one instance and provides a global point of access to it. In C#, the Singleton Design Pattern is useful when we need exactly one instance of a class to coordinate actions across the system. It is commonly used in scenarios where multiple objects need to access a single shared resource, such as configuration settings, access to a shared resource like a file system, or managing a connection to a database.
+* Single Instance: This Design Pattern ensures that only one instance of the Singleton class is created throughout the application.
+* Global Access: Provides a global access point to that instance.
+* Lazy Initialization: We can lazily initialize the singleton instance, which means it is created when it is needed for the first time, not when the application starts.
+* Thread Safety: When used in a multi-threaded application, the singleton needs to be thread-safe to prevent multiple instances from being created.
