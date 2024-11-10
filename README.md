@@ -40,3 +40,6 @@ Components of the Builder Pattern
 * Concrete Builder: Implements the steps defined in the builder interface.
 * Product: The complex object that is being constructed.
 * Director: Responsible for controlling the creation process using the builder interface
+
+## Singleton
+The Singleton Design Pattern is a Creational Design Pattern used to ensure that a class has only one instance and provides a global point of access to it. In C#, the Singleton Design Pattern is useful when we need exactly one instance of a class to coordinate actions across the system. It is commonly used in scenarios where multiple objects need to access a single shared resource, such as configuration settings, access to a shared resource like a file system, or managing a connection to a database.
